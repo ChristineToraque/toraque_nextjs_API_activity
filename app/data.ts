@@ -44,7 +44,7 @@ export const items: Item[] = [
         id: 5,
         title: 'Classic Cuisine',
         description: 'High-protein, grain-free formula inspired by the diet of the lynx. Features real chicken.',
-        imageUrl: '/images/image-04.jpg',
+        imageUrl: '/images/image-02.jpg',
         logo: '/globe.svg',
         price: 32.50
     },
@@ -52,7 +52,7 @@ export const items: Item[] = [
         id: 6,
         title: 'Royal Canin Adult Cat',
         description: 'Gentle formula with easily digestible ingredients for cats with sensitive digestive systems. Includes prebiotics.',
-        imageUrl: '/images/image-04.jpg',
+        imageUrl: '/images/image-02.jpg',
         logo: '/globe.svg',
         price: 24.99
     },
@@ -60,7 +60,7 @@ export const items: Item[] = [
         id: 7,
         title: 'Royal Canin Mother & Baby Cat',
         description: 'Specially formulated to help indoor cats maintain a healthy weight. Helps control hairballs.',
-        imageUrl: '/images/image-07.jpg',
+        imageUrl: '/images/image-04.jpg',
         logo: '/globe.svg',
         price: 15.80
     },
@@ -68,7 +68,7 @@ export const items: Item[] = [
         id: 8,
         title: 'Halo Holistic',
         description: 'Helps adult cats achieve and maintain a healthy weight. High fiber content promotes satiety.',
-        imageUrl: '/images/image-07.jpg',
+        imageUrl: '/images/image-04.jpg',
         logo: '/globe.svg',
         price: 29.95
     },
