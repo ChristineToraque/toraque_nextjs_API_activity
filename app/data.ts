@@ -12,7 +12,7 @@ export const items: Item[] = [
         id: 1,
         title: 'Royal Canin Kitten Dry Food',
         description: 'Tailored nutrition for kittens up to 12 months old. Supports immune system development and healthy growth.',
-        imageUrl: '/images/image-01.png',
+        imageUrl: '/images/image-08.jpg',
         logo: '/globe.svg',
         price: 25.99
     },
@@ -28,7 +28,7 @@ export const items: Item[] = [
         id: 3,
         title: 'Fancy Feast Gravy Lovers Poultry & Beef Feast Collection',
         description: 'Variety pack of wet cat food featuring tender bites in savory gravy. Provides essential moisture.',
-        imageUrl: '/images/image-01.png',
+        imageUrl: '/images/image-02.jpg',
         logo: '/globe.svg',
         price: 18.75
     },
@@ -36,7 +36,7 @@ export const items: Item[] = [
         id: 4,
         title: "Hill's Science Diet Adult 7+ Senior Dry Cat Food",
         description: 'Precisely balanced nutrition to support graceful aging in cats aged 7 and older. Supports kidney and heart health.',
-        imageUrl: '/images/image-01.png',
+        imageUrl: '/images/image-03.png',
         logo: '/globe.svg',
         price: 28.00
     },
@@ -44,7 +44,7 @@ export const items: Item[] = [
         id: 5,
         title: 'Blue Buffalo Wilderness Chicken Recipe Grain-Free Dry Cat Food',
         description: 'High-protein, grain-free formula inspired by the diet of the lynx. Features real chicken.',
-        imageUrl: '/images/image-01.png',
+        imageUrl: '/images/image-04.jpg',
         logo: '/globe.svg',
         price: 32.50
     },
@@ -52,7 +52,7 @@ export const items: Item[] = [
         id: 6,
         title: 'Iams ProActive Health Sensitive Stomach Dry Cat Food',
         description: 'Gentle formula with easily digestible ingredients for cats with sensitive digestive systems. Includes prebiotics.',
-        imageUrl: '/images/image-01.png',
+        imageUrl: '/images/image-05.jpg',
         logo: '/globe.svg',
         price: 24.99
     },
@@ -60,7 +60,7 @@ export const items: Item[] = [
         id: 7,
         title: 'Meow Mix Indoor Health Dry Cat Food',
         description: 'Specially formulated to help indoor cats maintain a healthy weight. Helps control hairballs.',
-        imageUrl: '/images/image-01.png',
+        imageUrl: '/images/image-06.jpg',
         logo: '/globe.svg',
         price: 15.80
     },
@@ -68,7 +68,7 @@ export const items: Item[] = [
         id: 8,
         title: 'Royal Canin Feline Weight Care Dry Cat Food',
         description: 'Helps adult cats achieve and maintain a healthy weight. High fiber content promotes satiety.',
-        imageUrl: '/images/image-01.png',
+        imageUrl: '/images/image-07.jpg',
         logo: '/globe.svg',
         price: 29.95
     },
