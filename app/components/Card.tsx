@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Item } from "../api/items/route";
+import Link from "next/link";
 
 export interface CardProps {
   item: Item;
@@ -39,6 +40,11 @@ export function Card({ item }: CardProps) {
       <div className="flex flex-col items-center h-[100px]">
        <p className="text-gray-600 mb-2">{item.description}</p>
       </div>
+      <Link href={`/items/${item.id}`} className="w-full">
+        <button className="py-2 px-5 mb-4 rounded-pill text-white border-0 bg-orange-600 transition-colors duration-200 ease-in-out focus:outline-none focus:ring-2 focus:ring-orange-400 focus:ring-offset-2 rounded cursor-pointer hover:bg-orange-700 mr-1">
+          View
+        </button>
+      </Link>
       <button className="py-2 px-5 mb-4 rounded-pill text-white border-0 bg-orange-600 transition-colors duration-200 ease-in-out focus:outline-none focus:ring-2 focus:ring-orange-400 focus:ring-offset-2 rounded cursor-pointer hover:bg-orange-700">
         Add to Cart
       </button>
