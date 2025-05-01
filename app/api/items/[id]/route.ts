@@ -7,7 +7,7 @@ interface RouteContext {
     };
 }
 
-export async function GET(request: Request, context: RouteContext) {
+export async function GET(request: NextRequest, context: RouteContext) {
     const { params } = context;
     const itemId = params.id ? parseInt(params?.id, 10) : undefined;
 

@@ -10,7 +10,7 @@ export interface Item {
 export const items: Item[] = [
     {
         id: 1,
-        title: 'Royal Canin Kitten Dry Food',
+        title: 'Bellotta Mackerel',
         description: 'Tailored nutrition for kittens up to 12 months old. Supports immune system development and healthy growth.',
         imageUrl: '/images/image-08.jpg',
         logo: '/globe.svg',
@@ -18,23 +18,23 @@ export const items: Item[] = [
     },
     {
         id: 2,
-        title: 'Purina Pro Plan Adult Chicken & Rice Formula',
+        title: 'Webbox Cats Delight',
         description: 'High-quality protein with chicken as the first ingredient. Fortified with live probiotics for digestive health.',
-        imageUrl: '/images/image-01.png',
+        imageUrl: '/images/image-08.jpg',
         logo: '/globe.svg',
         price: 22.50
     },
     {
         id: 3,
-        title: 'Fancy Feast Gravy Lovers Poultry & Beef Feast Collection',
+        title: 'Felix As Good as itt looks with Chicken in Jelly',
         description: 'Variety pack of wet cat food featuring tender bites in savory gravy. Provides essential moisture.',
-        imageUrl: '/images/image-02.jpg',
+        imageUrl: '/images/image-03.png',
         logo: '/globe.svg',
         price: 18.75
     },
     {
         id: 4,
-        title: "Hill's Science Diet Adult 7+ Senior Dry Cat Food",
+        title: "Senior Cat Care",
         description: 'Precisely balanced nutrition to support graceful aging in cats aged 7 and older. Supports kidney and heart health.',
         imageUrl: '/images/image-03.png',
         logo: '/globe.svg',
@@ -42,7 +42,7 @@ export const items: Item[] = [
     },
     {
         id: 5,
-        title: 'Blue Buffalo Wilderness Chicken Recipe Grain-Free Dry Cat Food',
+        title: 'Classic Cuisine',
         description: 'High-protein, grain-free formula inspired by the diet of the lynx. Features real chicken.',
         imageUrl: '/images/image-04.jpg',
         logo: '/globe.svg',
@@ -50,23 +50,23 @@ export const items: Item[] = [
     },
     {
         id: 6,
-        title: 'Iams ProActive Health Sensitive Stomach Dry Cat Food',
+        title: 'Royal Canin Adult Cat',
         description: 'Gentle formula with easily digestible ingredients for cats with sensitive digestive systems. Includes prebiotics.',
-        imageUrl: '/images/image-05.jpg',
+        imageUrl: '/images/image-04.jpg',
         logo: '/globe.svg',
         price: 24.99
     },
     {
         id: 7,
-        title: 'Meow Mix Indoor Health Dry Cat Food',
+        title: 'Royal Canin Mother & Baby Cat',
         description: 'Specially formulated to help indoor cats maintain a healthy weight. Helps control hairballs.',
-        imageUrl: '/images/image-06.jpg',
+        imageUrl: '/images/image-07.jpg',
         logo: '/globe.svg',
         price: 15.80
     },
     {
         id: 8,
-        title: 'Royal Canin Feline Weight Care Dry Cat Food',
+        title: 'Halo Holistic',
         description: 'Helps adult cats achieve and maintain a healthy weight. High fiber content promotes satiety.',
         imageUrl: '/images/image-07.jpg',
         logo: '/globe.svg',
